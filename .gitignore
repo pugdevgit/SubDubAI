@@ -1,0 +1,75 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS metadata in folders
+Icon?
+._*
+
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+
+# Derived data & build products
+DerivedData/
+build/
+Build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+# Ignore build artifacts and package resolution files you don't want tracked
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+# If you DO want to track workspace settings, keep the workspace and ignore only pods
+# Note: If using pods, commit your Podfile and Podfile.lock, but ignore Pods/ unless your team requires vendoring
+# Podfile.lock should be committed when using CocoaPods
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Firebase/Crashlytics
+# (adjust if you vendor frameworks)
+*.framework.zip
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.orig
+
+# Coverage
+html/
+*.lcov
+*.profdata
+
+# Archives
+*.xcarchive
+
+# Simulator device data (never commit)
+Library/Developer/Xcode/UserData/DeviceSupport/
+
+# Xcode automatic user-specific settings (per-user; not for repo)
+*.xcuserdata
+
+# Local environment
+.env
+.env.*
+
+/Input
+/Output
