@@ -2,7 +2,7 @@
 //  Item.swift
 //  SubDubAI
 //
-//  Created by Oleg on 21.11.2025.
+//  Created by Oleg on 07.11.2025.
 //
 
 import Foundation
